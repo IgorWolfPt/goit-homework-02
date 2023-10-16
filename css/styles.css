@@ -1,1 +1,97 @@
-body { font-family: "Roboto", "Raleway", sans-serif; color: ; background-color:#FFF;} 
+body { font-family: "Roboto", "Raleway", sans-serif; color: #2E2F42; background-color:#FFF;} 
+
+h3 {color: var(--NAVY-BLUE, #2E2F42);
+}
+p { color: var(--SLATE, #434455);}
+/* start poster */
+
+.start-poster {background: var(--WHITE, #FFF)}
+
+/* main poster */
+
+.title {background: var(--NAVY-BLUE, #2E2F42);;
+    color: var(--WHITE, #FFF);}
+
+.oder-btn {background: var(--IRIS, #4D5AE5);
+    color: var(--WHITE, #FFF);}
+.oder-btn:hover, .oder-btn:focus {background: var(--OCEAN, #404BBF);
+    color: var(--WHITE, #FFF);}
+
+/* about us */
+.we-are {background: var(--WHITE, #FFF)}
+
+/* our-team */
+
+.our-team {background: var(--CLOUD, #F4F4FD);}
+
+.accentblue {color: var(--IRIS, #4D5AE5);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    }
+    .logo {color: var(--NAVY-BLUE, #2E2F42);
+        font-family: Raleway;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 21px;
+        /* 116.667% */
+        letter-spacing: 0.54px;
+        text-transform: uppercase;}
+        .navipage {color: var(--NAVY-BLUE, #2E2F42);
+        
+            /* Body Medium */
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+            /* 150% */
+            letter-spacing: 0.32px;}
+        a {color: var(--NAVY-BLUE, #2E2F42);text-decoration: none}
+        a:hover, :focus {color:var(--OCEAN, #404BBF);}
+    li a:hover { color: var(--OCEAN, #404BBF);
+        }
+        li a:focus {color: #4D5AE5;}
+
+    
+        
+
+    .buttontext {color: #2E2F42;
+            
+                /* Button Text */
+                font-family: Roboto;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 24px;
+                /* 150% */
+                letter-spacing: 0.64px;}
+
+    button {color: var(--WHITE, #FFF);
+                background: var(--IRIS, #4D5AE5);
+                    /* Button Text */
+                    font-family: Roboto;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 24px;
+                    /* 150% */
+                    letter-spacing: 0.64px;}
+
+    .feature {color: #2E2F42;
+                    
+                        /* Header 3 */
+                        font-family: Roboto;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 24px;
+                        /* 120% */
+                        letter-spacing: 0.4px;}
+                        
