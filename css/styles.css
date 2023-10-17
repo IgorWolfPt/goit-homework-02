@@ -1,5 +1,5 @@
-body { background: var(--WHITE, #FFF); font-family: "Roboto", "Raleway", sans-serif; color: #2E2F42; background-color:#FFF;} 
-
+body { background: var(-- #FFFFFF;); font-family: "Roboto", sans-serif; color: #434455;} 
+:root {--background-color: #FFFFFF}
 h3 {color: var(--NAVY-BLUE, #2E2F42);
 }
 
