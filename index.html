@@ -23,23 +23,29 @@
   <body>
     <!--логотип, навігацію, меню користувача-->
     <header class="start-poster">
-      <nav>
-        <a class="nav-logo" href="./index.html"
+      <nav class="link">
+        <a class="logo link" href="./index.html"
           >Web<span class="nav-accent">Studio</span></a
         >
-        <ul class="nav-page">
-          <li><a href="./index.html">Studio</a></li>
-          <li><a href="./portfolio.html">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+        <ul class="list">
+          <li class="menu-stud">
+            <a class="link" href="./index.html">Studio</a>
+          </li>
+          <li class="menu-stud">
+            <a class="link" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="menu-stud"><a class="link" href="">Contacts</a></li>
         </ul>
       </nav>
       <address class="nav-contacts">
-        <ul>
-          <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <ul class="list">
+          <li class="address-mail">
+            <a class="link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
-          <li>
-            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+          <li class="address-mail">
+            <a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a>
           </li>
         </ul>
       </address>
@@ -48,19 +54,19 @@
       <!-- maim poster -->
 
       <section class="main-title">
-        <h1>Effective Solutions for Your Business</h1>
+        <h1 class="main-title-bild">Effective Solutions for Your Business</h1>
 
         <button type="button" class="main-btn-order">Order Service</button>
       </section>
 
       <!-- about us  -->
 
-      <section class="we-are">
+      <section class="list">
         <h2>пустий</h2>
-        <ul>
+        <ul class="list">
           <li>
             <h3 class="feature">Strategy</h3>
-            <p>
+            <p class="feature-text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
@@ -68,7 +74,7 @@
 
           <li>
             <h3 class="feature">Punctuality</h3>
-            <p>
+            <p class="feature-text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
@@ -76,7 +82,7 @@
 
           <li>
             <h3 class="feature">Diligence</h3>
-            <p>
+            <p class="feature-text">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
@@ -84,7 +90,7 @@
 
           <li>
             <h3 class="feature">Technologies</h3>
-            <p>
+            <p class="feature-text">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -95,51 +101,49 @@
       <!-- our mission -->
 
       <section>
-        <div class="we-are">
-          <h2>What are we doing</h2>
-          <ul>
-            <li>
-              <img
-                src="./images/Rectangle1.jpg"
-                alt="restangle1"
-                width="360"
-                height="300"
-              />
-            </li>
-            <li>
-              <img
-                src="./images/Rectangle2.jpg"
-                alt="restangle 2"
-                width="360"
-                height="300"
-              />
-            </li>
-            <li>
-              <img
-                src="./images/Rectangle3.jpg"
-                alt="restangle 3"
-                width="360"
-                height="300"
-              />
-            </li>
-          </ul>
-        </div>
+        <h2 class="promoution">What are we doing</h2>
+        <ul class="list">
+          <li>
+            <img
+              src="./images/Rectangle1.jpg"
+              alt="restangle1"
+              width="360"
+              height="300"
+            />
+          </li>
+          <li>
+            <img
+              src="./images/Rectangle2.jpg"
+              alt="restangle 2"
+              width="360"
+              height="300"
+            />
+          </li>
+          <li>
+            <img
+              src="./images/Rectangle3.jpg"
+              alt="restangle 3"
+              width="360"
+              height="300"
+            />
+          </li>
+        </ul>
       </section>
 
       <!-- our team -->
 
       <section class="our-team">
-        <h2>Our Team</h2>
-        <ul>
-          <li>
+        <h2 class="promoution">Our Team</h2>
+        <ul class="list">
+          <li class="our-team-person">
             <img src="./images/Mark.jpg" alt="Mark" width="264" height="260" />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <h3 class="feature">Mark Guerrero</h3>
+            <p class="feature-text">Product Designer</p>
           </li>
           <li>
             <img src="./images/Tom.jpg" alt="Tom" width="264" height="260" />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <h3 class="feature">Tom Ford</h3>
+            <p class="feature-text">Frontend Developer</p>
           </li>
           <li>
             <img
@@ -148,8 +152,8 @@
               width="264"
               height="260"
             />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <h3 class="feature">Camila Garcia</h3>
+            <p class="feature-text">Marketing</p>
           </li>
           <li>
             <img
@@ -158,8 +162,8 @@
               width="264"
               height="260"
             />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <h3 class="feature">Daniel Wilson</h3>
+            <p class="feature-text">UI Designer</p>
           </li>
         </ul>
       </section>
@@ -168,7 +172,7 @@
     <!-- FOOTER -->
     <!--копірайт, список посилань на соціальні мережі, контактні інформації-->
     <footer class="main-title">
-      <a class="nav-logo" href="./index.html"
+      <a class="logo link" href="./index.html"
         >Web<span class="nav-accent-footer">Studio</span></a
       >
       <p class="footer-text">
