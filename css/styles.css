@@ -2,7 +2,6 @@
     --background-color: #FFFFFF;
     --color-brend: #4d5ae5;
     --color-brend-durck: #2e2f42;
-    --background-color-stert: #FFF;
     --color: #434455;
     --color-brend-light: #F4F4FD;
     --color-logo: #404bbf;
@@ -92,7 +91,7 @@ body {
                     /* START POSTER */
                     
 .start-poster {
-    background-color: var(--background-color-start);
+    background-color: var(--background-color);
 }
 .menu-stud {
     font-weight: 500;
