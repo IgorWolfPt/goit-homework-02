@@ -12,12 +12,16 @@ body {
     color: #434455;
 } 
 
+a {
+    text-decoration: none;
+}
 
-
-         
+ul {
+    list-style: none;
+ }        
 
          /* LOGO */
-.link-logo {
+.logo {
     color: var(--color-brend);
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -26,67 +30,60 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    text-decoration: none;
                  }
-
-.footer .link-logo:hover,
-.footer .link-logo:focus {color: var(--color-logo);
-
-}
-.link-logo-dark {
+.logo-dark {
     color: var(--color-brend-durck);
 }
-.link-logo .link-logo-dark:hover,
-.link-logo .link-logo-dark:focus {
-    color:var(--color-brend);
+.logo-light {
+    color: #F4F4FD;
+}
+.logo:hover,
+.logo-dark:hover,
+.logo:focus,
+.logo-dark:focus {
+    color: var(--color-logo);
+}
+
+.footer:hover,
+.link-logo:hover,
+.footer:focus,
+.link-logo:focus {color: var(--color-logo);
+
 }
 
 
                   /* NAVIGATION */
-.list-nav {
-   list-style: none;
+
+.address {
+    font-style: normal;
 }
-.list-text {
+
+.link-text {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-brend-durck);
 }
-.link-nav {
-    text-decoration: none
-}
 
-.list-text .link-nav:hover,
-.list-text .link-nav:focus {
-    color: #404bbf
-}
-
-
-
-                    /* ADDRESS */
-.address {
-    font-style: normal;
-}
-
-.list-address {
-    list-style: none;
-}
-
-.list-address-text {
+.link-address {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color);
 }
-.link-address {
-    text-decoration: none;
-}
 
-.list-address .link-address:hover,
-.list-address .link-address:focus {
+.link-text:hover, 
+.link-address:hover {
+        color: #404bbf;
+    }
+.link-text:focus, 
+.link-address:focus {
     color: #404bbf;
 }
+
+
+
 
                     /* START POSTER */
                     
@@ -188,9 +185,7 @@ body {
     text-transform: capitalize;
     color: var(--color-brend-durck);
 }
-.list-team {
-    list-style: none;
-}
+
                /* SECTION FOUR */
 
                   /* OUR TEAM */
@@ -221,9 +216,7 @@ body {
     
         /* BUTTONS */
         
-.list-botton {
-    list-style: none;
-}
+
 .button-filter {
     background-color: var(--color-brend-light);
     color: var(--color-brend);
@@ -245,9 +238,7 @@ body {
 
                /* LIST PORTFOLIO */
 
- .list-portfolio {
-    list-style: none;
- }
+
 
  .link-portfolio-bild {
     text-decoration: none;
@@ -301,7 +292,7 @@ button {
     color: var(--color-brend-durck);
 }
 
-    /* PORTFOLIO PROJECT CARDS */
+   
 
 
 
