@@ -73,13 +73,16 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+.link-address {
+    text-decoration: none;
     color: var(--color);
 }
 
-.link:hover, 
-.link:hover,
-.link:focus, 
-.link:focus {
+.link-address:hover, 
+.link-address:hover,
+.link-address:focus, 
+.link-adress:focus {
     color: #404bbf;
 }
 
