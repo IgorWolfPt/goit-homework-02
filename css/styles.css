@@ -12,15 +12,17 @@ body {
     color: #434455;
 } 
 
-a {
+      
+
+         /* LOGO */
+
+.link {
     text-decoration: none;
 }
 
-ul {
+.list {
     list-style: none;
- }        
-
-         /* LOGO */
+}
 .logo {
     color: var(--color-brend);
     font-family: 'Raleway', sans-serif;
@@ -30,7 +32,8 @@ ul {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-                 }
+    list-style: none;
+}
 .logo-dark {
     color: var(--color-brend-durck);
 }
@@ -45,10 +48,9 @@ ul {
 }
 
 .footer:hover,
-.link-logo:hover,
+.logo:hover,
 .footer:focus,
-.link-logo:focus {color: var(--color-logo);
-
+.logo:focus {color: var(--color-logo);
 }
 
 
@@ -58,7 +60,7 @@ ul {
     font-style: normal;
 }
 
-.link-text {
+.list-text {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -66,19 +68,17 @@ ul {
     color: var(--color-brend-durck);
 }
 
-.link-address {
+.list-address {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color);
 }
 
-.link-text:hover, 
-.link-address:hover {
-        color: #404bbf;
-    }
-.link-text:focus, 
-.link-address:focus {
+.link:hover, 
+.link:hover,
+.link:focus, 
+.link:focus {
     color: #404bbf;
 }
 
@@ -152,9 +152,6 @@ ul {
 
  /* ABOUT US */
 
-.list-about {
-    list-style: none;
-}
 
 .feature {
     font-weight: 500;
