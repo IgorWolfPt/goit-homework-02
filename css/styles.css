@@ -1,3 +1,9 @@
+
+body {
+    background-color: var(--background-color);
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+} 
 :root {
     --background-color: #FFFFFF;
     --color-brend: #4d5ae5;
@@ -6,20 +12,16 @@
     --color-brend-light: #F4F4FD;
     --color-logo: #404bbf;
 }
-body {
-    background-color: var(--background-color);
-    font-family: 'Roboto', sans-serif;
-    color: #434455;
-} 
 
       
 
-         /* LOGO */
+           /* LOGO */
+
 
 .link {
     text-decoration: none;
+    color: var(--color-brend-durck);
 }
-
 .list {
     list-style: none;
 }
@@ -65,14 +67,13 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--color-brend-durck);
 }
 
 .list-address {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--color);
+    color: var(--color-brend);
 }
 
 .link:hover, 
@@ -174,6 +175,11 @@ body {
 
               /* SECTION THREE */
 
+
+
+               /* SECTION FOUR */
+
+                  /* OUR TEAM */
 .our-tem-promoution {
     font-size: 36px;
     line-height: 1.11;
@@ -183,10 +189,6 @@ body {
     color: var(--color-brend-durck);
 }
 
-               /* SECTION FOUR */
-
-                  /* OUR TEAM */
-
 .our-team {
     background-color: var(--color-brend-light);
 }
@@ -195,13 +197,6 @@ body {
     background-color: #FFFFFF;
 }
 
-.our-team-person-info {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--color-brend-durck);
-}
 
 
 .our-team-text {
