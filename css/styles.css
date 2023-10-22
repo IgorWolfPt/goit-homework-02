@@ -21,6 +21,9 @@ body {
 .link {
     text-decoration: none;
 }
+.link-nav {
+    color: var(--color-brend-durck);
+}
 .list {
     list-style: none;
 }
@@ -44,7 +47,9 @@ body {
 .logo:hover,
 .logo-dark:hover,
 .logo:focus,
-.logo-dark:focus {
+.logo-dark:focus,
+.link-nav:hover,
+.link-nav:focus {
     color: var(--color-logo);
 }
 
@@ -75,7 +80,6 @@ body {
     letter-spacing: 0.02em;
 }
 .link-address {
-    text-decoration: none;
     color: var(--color);
 }
 
